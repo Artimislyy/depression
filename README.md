@@ -22,7 +22,7 @@
 
 
 
-![image-20240626193034605](C:\Users\22496\AppData\Roaming\Typora\typora-user-images\image-20240626193034605.png)
+![image-20240626193034605](https://github.com/Artimislyy/depression/blob/master/img/image-20240626193034605.png)
 
 # 作品效果
 
