@@ -25,7 +25,8 @@
 ![image-20240626193034605](https://github.com/Artimislyy/depression/blob/master/img/image-20240626193034605.png)
 
 # 作品效果
+视频链接：https://v.afbcs.cn/nChfi9
 
 ![image-20240626193245799](https://github.com/Artimislyy/depression/blob/master/img/image-20240626193245799.png)
 
-视频链接：https://v.afbcs.cn/nChfi9
+
