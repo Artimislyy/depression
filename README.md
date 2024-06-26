@@ -18,7 +18,7 @@
 
 本文提出了基于时域卷积网络的多模态框架，用于从音频和视觉线索估计抑郁症的严重程度。对于多模态融合策略，本文采用了一种用于视听多模态抑郁估计的决策融合方法，来自音频输出的 PHQ-8 分数和面部特征的 PHQ-8 分数做线性回归，得到最终预测结果的 PHQ-8 分数。
 
-![image-20240626192918684](C:\Users\22496\AppData\Roaming\Typora\typora-user-images\image-20240626192918684.png)
+![image-20240626192918684](https://github.com/Artimislyy/depression/blob/master/img/image-20240626192918684.png)
 
 
 
