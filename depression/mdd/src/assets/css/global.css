@@ -1,0 +1,73 @@
+#app {
+  font-family: 'SimHei','Open Sans', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Microsoft JhengHei UI', 'Microsoft JhengHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #555555;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+h1,h2,h3,h4,div,body,.el-header,.el-main,.el-footer,p {
+  margin: 0;
+  padding: 0;
+}
+  body {
+  font-family: 'SimHei','Open Sans', sans-serif;
+  color: #555;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+h1 {
+  /* margin-top: 20px; */
+  font-family: 'YouYuan','SimHei';
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 600;
+  letter-spacing: 8px;
+  /* transition: all 0.6s;  */
+  /* margin-bottom: 20px; */
+}
+h2 {
+  /* margin-top: 20px; */
+  font-family: 'SimHei';
+  font-size: 28px;
+  line-height: 28px;
+  text-align: left;
+  color: #4a6249;
+  /* transition: all 0.6s;  */
+  /* margin-bottom: 20px; */
+}
+h3 {
+  /* margin-top: 20px; */
+  font-family: 'SimHei';
+  font-size: 22px;
+  line-height: 22px;
+  color: #4a6249;
+  /* margin-bottom: 20px; */
+}
+p {
+  /* margin-top: 20px; */
+  font-family: 'SimHei';
+  font-size: 16px;
+  line-height: 21px;
+  text-align: left;
+  /* margin: 5px auto; */
+  /* letter-spacing: 2px; */
+  /* margin-bottom: 20px; */
+}
+img:hover{
+  transform: scale(1.2); 
+  
+}
+img{
+  transition: all 0.6s; 
+}
+.background{
+  padding-bottom: 40px;
+}
+/* h1:hover,h2:hover{
+  transform: scale(1.4); 
+} */

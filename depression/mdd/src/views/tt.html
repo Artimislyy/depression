@@ -1,0 +1,188 @@
+<!--
+ * @Autor: Hongting Yuan
+ * @Date: 2022-04-21 23:01:54
+ * @LastEditors: Hongting Yuan
+ * @LastEditTime: 2022-05-26 09:02:01
+ * @Description: file content
+ * @FilePath: \mdd\src\views\tt.html
+-->
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>Bootstrap 101 Template</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #E1E7EF;
+    }
+
+    .title {
+      width: 500px;
+      text-align: center;
+      height: 100px;
+      margin: 0 auto;
+      font-size: 30px;
+      line-height: 100px;
+      font-weight: 700;
+    }
+
+    .bd {
+      width: 400px;
+      margin: 0 auto;
+      height: 230px;
+      background-color: #FFFFFF;
+      padding: 20px 20px;
+    }
+
+    .pl {
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      position: relative;
+    }
+
+    .ic {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="">
+    <div class="title"><span>叩丁狼CRM</span></div>
+    <div class="bd">
+      <form>
+        <div class="pl">
+          <span>请输入账号密码</span>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="请输入账号">
+          <span class="ic glyphicon glyphicon-user"> </span>
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入密码">
+          <span class="ic glyphicon glyphicon-lock"> </span>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg btn-block">登录</button>
+      </form>
+    </div>
+  </div>
+
+
+  <script src="https://fastly.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"
+    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>第一个 ECharts 实例</title>
+  <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+
+<body>
+  <div id="main" style="width: 600px;height:400px;"></div>
+  <script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    myChart.setOption({
+      series: [
+        {
+          name: '中国抑郁症治疗情况',
+          title: {
+            text: '中国抑郁症治疗情况',
+            subtext: 'Fake Data',
+            // left: 'center',
+            x: 'center',
+            y: 'bottom'
+          },
+          type: 'pie',    // 设置图表类型为饼图
+          // 全局调色盘。
+          color: ['#e7b53f', '#19c319', '#d13232'],
+          radius: '55%',  // 饼图的半径，外半径为可视区尺寸（容器高宽中较小一项）的 55% 长度。
+          data: [          // 数据数组，name 为数据项名称，value 为数据项值
+            { value: 17.2, name: '轻度抑郁检出率17.2%' },
+            { value: 75.4, name: '健康率75.4%' },
+            { value: 7.4, name: '重度抑郁检出率7.4%' }
+          ]
+        }
+      ]
+    })
+  </script>
+</body>
+
+</html> -->
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>第一个 ECharts 实例</title>
+  <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+
+<body>
+  <div id="main" style="width: 600px;height:400px;"></div>
+  <script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    myChart.setOption({
+      series: [
+        {
+          name: '中国抑郁症治疗情况',
+          title: {
+            text: '中国抑郁症治疗情况',
+            subtext: 'Fake Data',
+            // left: 'center',
+            x: 'center',
+            y: 'bottom'
+          },
+          type: 'pie',    // 设置图表类型为饼图
+          // 全局调色盘。
+          color: ['#e7b53f', '#19c319', '#d13232'],
+          radius: '55%',  // 饼图的半径，外半径为可视区尺寸（容器高宽中较小一项）的 55% 长度。
+          data: [          // 数据数组，name 为数据项名称，value 为数据项值
+            { value: 902, name: '接受治疗902万' },
+            { value: 47.5, name: '充分治疗47.5万' },
+            { value: 8500.5, name: '未治疗8500.5万' }
+          ]
+        }
+      ]
+    })
+  </script>
+</body>
+
+</html> -->
