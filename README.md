@@ -26,6 +26,6 @@
 
 # 作品效果
 
-![image-20240626193245799]([C:\Users\22496\AppData\Roaming\Typora\typora-user-images\image-20240626193245799.png](https://github.com/Artimislyy/depression/blob/master/img/image-20240626193245799.png))
+![image-20240626193245799](https://github.com/Artimislyy/depression/blob/master/img/image-20240626193245799.png)
 
 视频链接：https://v.afbcs.cn/nChfi9
